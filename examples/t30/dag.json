@@ -1,0 +1,662 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "Index": 0,
+    "U": -1,
+    "T": -1,
+    "W": -1
+  },
+  "nodes": [
+    {
+      "rank": 0,
+      "execution_time": 56,
+      "label": "1,rank0",
+      "CLB": 2877,
+      "BRAM": 9,
+      "DSP": 54,
+      "EST": 0,
+      "LFT": 56,
+      "Slack": 0,
+      "id": 1
+    },
+    {
+      "rank": 1,
+      "execution_time": 43,
+      "label": "2,rank1",
+      "CLB": 2972,
+      "BRAM": 25,
+      "DSP": 12,
+      "EST": 56,
+      "LFT": 682,
+      "Slack": 583,
+      "id": 2
+    },
+    {
+      "rank": 2,
+      "execution_time": 55,
+      "label": "3,rank2",
+      "CLB": 2406,
+      "BRAM": 24,
+      "DSP": 58,
+      "EST": 56,
+      "LFT": 111,
+      "Slack": 0,
+      "id": 3
+    },
+    {
+      "rank": 3,
+      "execution_time": 52,
+      "label": "4,rank3",
+      "CLB": 2512,
+      "BRAM": 30,
+      "DSP": 46,
+      "EST": 111,
+      "LFT": 163,
+      "Slack": 0,
+      "id": 4
+    },
+    {
+      "rank": 4,
+      "execution_time": 48,
+      "label": "5,rank4",
+      "CLB": 2953,
+      "BRAM": 26,
+      "DSP": 65,
+      "EST": 163,
+      "LFT": 589,
+      "Slack": 378,
+      "id": 5
+    },
+    {
+      "rank": 4,
+      "execution_time": 60,
+      "label": "6,rank4",
+      "CLB": 2911,
+      "BRAM": 53,
+      "DSP": 22,
+      "EST": 163,
+      "LFT": 223,
+      "Slack": 0,
+      "id": 6
+    },
+    {
+      "rank": 4,
+      "execution_time": 46,
+      "label": "7,rank4",
+      "CLB": 2975,
+      "BRAM": 74,
+      "DSP": 26,
+      "EST": 56,
+      "LFT": 223,
+      "Slack": 121,
+      "id": 7
+    },
+    {
+      "rank": 5,
+      "execution_time": 51,
+      "label": "8,rank5",
+      "CLB": 2309,
+      "BRAM": 7,
+      "DSP": 45,
+      "EST": 223,
+      "LFT": 274,
+      "Slack": 0,
+      "id": 8
+    },
+    {
+      "rank": 5,
+      "execution_time": 43,
+      "label": "9,rank5",
+      "CLB": 2547,
+      "BRAM": 19,
+      "DSP": 63,
+      "EST": 211,
+      "LFT": 632,
+      "Slack": 378,
+      "id": 9
+    },
+    {
+      "rank": 5,
+      "execution_time": 45,
+      "label": "10,rank5",
+      "CLB": 2928,
+      "BRAM": 70,
+      "DSP": 60,
+      "EST": 102,
+      "LFT": 274,
+      "Slack": 127,
+      "id": 10
+    },
+    {
+      "rank": 6,
+      "execution_time": 58,
+      "label": "11,rank6",
+      "CLB": 2341,
+      "BRAM": 17,
+      "DSP": 16,
+      "EST": 274,
+      "LFT": 682,
+      "Slack": 350,
+      "id": 11
+    },
+    {
+      "rank": 6,
+      "execution_time": 48,
+      "label": "12,rank6",
+      "CLB": 2049,
+      "BRAM": 79,
+      "DSP": 21,
+      "EST": 274,
+      "LFT": 322,
+      "Slack": 0,
+      "id": 12
+    },
+    {
+      "rank": 6,
+      "execution_time": 44,
+      "label": "13,rank6",
+      "CLB": 2947,
+      "BRAM": 18,
+      "DSP": 69,
+      "EST": 274,
+      "LFT": 322,
+      "Slack": 4,
+      "id": 13
+    },
+    {
+      "rank": 6,
+      "execution_time": 50,
+      "label": "14,rank6",
+      "CLB": 2071,
+      "BRAM": 41,
+      "DSP": 21,
+      "EST": 254,
+      "LFT": 682,
+      "Slack": 378,
+      "id": 14
+    },
+    {
+      "rank": 7,
+      "execution_time": 54,
+      "label": "15,rank7",
+      "CLB": 2001,
+      "BRAM": 7,
+      "DSP": 11,
+      "EST": 322,
+      "LFT": 376,
+      "Slack": 0,
+      "id": 15
+    },
+    {
+      "rank": 8,
+      "execution_time": 42,
+      "label": "16,rank8",
+      "CLB": 2776,
+      "BRAM": 18,
+      "DSP": 27,
+      "EST": 376,
+      "LFT": 428,
+      "Slack": 10,
+      "id": 16
+    },
+    {
+      "rank": 8,
+      "execution_time": 42,
+      "label": "17,rank8",
+      "CLB": 2040,
+      "BRAM": 55,
+      "DSP": 50,
+      "EST": 376,
+      "LFT": 428,
+      "Slack": 10,
+      "id": 17
+    },
+    {
+      "rank": 8,
+      "execution_time": 52,
+      "label": "18,rank8",
+      "CLB": 2754,
+      "BRAM": 41,
+      "DSP": 26,
+      "EST": 376,
+      "LFT": 428,
+      "Slack": 0,
+      "id": 18
+    },
+    {
+      "rank": 8,
+      "execution_time": 46,
+      "label": "19,rank8",
+      "CLB": 2995,
+      "BRAM": 48,
+      "DSP": 35,
+      "EST": 376,
+      "LFT": 428,
+      "Slack": 6,
+      "id": 19
+    },
+    {
+      "rank": 9,
+      "execution_time": 41,
+      "label": "20,rank9",
+      "CLB": 2550,
+      "BRAM": 80,
+      "DSP": 38,
+      "EST": 418,
+      "LFT": 477,
+      "Slack": 18,
+      "id": 20
+    },
+    {
+      "rank": 9,
+      "execution_time": 49,
+      "label": "21,rank9",
+      "CLB": 2432,
+      "BRAM": 40,
+      "DSP": 73,
+      "EST": 428,
+      "LFT": 477,
+      "Slack": 0,
+      "id": 21
+    },
+    {
+      "rank": 10,
+      "execution_time": 41,
+      "label": "22,rank10",
+      "CLB": 2867,
+      "BRAM": 19,
+      "DSP": 68,
+      "EST": 477,
+      "LFT": 518,
+      "Slack": 0,
+      "id": 22
+    },
+    {
+      "rank": 11,
+      "execution_time": 47,
+      "label": "23,rank11",
+      "CLB": 2095,
+      "BRAM": 33,
+      "DSP": 35,
+      "EST": 56,
+      "LFT": 575,
+      "Slack": 472,
+      "id": 23
+    },
+    {
+      "rank": 11,
+      "execution_time": 56,
+      "label": "24,rank11",
+      "CLB": 2420,
+      "BRAM": 51,
+      "DSP": 72,
+      "EST": 518,
+      "LFT": 574,
+      "Slack": 0,
+      "id": 24
+    },
+    {
+      "rank": 12,
+      "execution_time": 42,
+      "label": "25,rank12",
+      "CLB": 2283,
+      "BRAM": 67,
+      "DSP": 14,
+      "EST": 574,
+      "LFT": 624,
+      "Slack": 8,
+      "id": 25
+    },
+    {
+      "rank": 12,
+      "execution_time": 50,
+      "label": "26,rank12",
+      "CLB": 2718,
+      "BRAM": 48,
+      "DSP": 35,
+      "EST": 574,
+      "LFT": 624,
+      "Slack": 0,
+      "id": 26
+    },
+    {
+      "rank": 12,
+      "execution_time": 49,
+      "label": "27,rank12",
+      "CLB": 2219,
+      "BRAM": 38,
+      "DSP": 75,
+      "EST": 103,
+      "LFT": 624,
+      "Slack": 472,
+      "id": 27
+    },
+    {
+      "rank": 12,
+      "execution_time": 54,
+      "label": "28,rank12",
+      "CLB": 2407,
+      "BRAM": 6,
+      "DSP": 44,
+      "EST": 56,
+      "LFT": 624,
+      "Slack": 514,
+      "id": 28
+    },
+    {
+      "rank": 13,
+      "execution_time": 42,
+      "label": "29,rank13",
+      "CLB": 2898,
+      "BRAM": 56,
+      "DSP": 29,
+      "EST": 616,
+      "LFT": 682,
+      "Slack": 24,
+      "id": 29
+    },
+    {
+      "rank": 13,
+      "execution_time": 58,
+      "label": "30,rank13",
+      "CLB": 2795,
+      "BRAM": 62,
+      "DSP": 21,
+      "EST": 624,
+      "LFT": 682,
+      "Slack": 0,
+      "id": 30
+    },
+    {
+      "rank": 14,
+      "execution_time": 48,
+      "label": "31,rank14",
+      "CLB": 2389,
+      "BRAM": 39,
+      "DSP": 0,
+      "EST": 682,
+      "LFT": 730,
+      "Slack": 0,
+      "id": 31
+    }
+  ],
+  "edges": [
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 1,
+      "target": 2
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 1,
+      "target": 3
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 1,
+      "target": 7
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 1,
+      "target": 23
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 1,
+      "target": 28
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 2,
+      "target": 31
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 3,
+      "target": 4
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 4,
+      "target": 5
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 4,
+      "target": 6
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 5,
+      "target": 9
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 6,
+      "target": 8
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 7,
+      "target": 8
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 7,
+      "target": 10
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 8,
+      "target": 11
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 8,
+      "target": 12
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 8,
+      "target": 13
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 9,
+      "target": 14
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 10,
+      "target": 12
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 10,
+      "target": 13
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 11,
+      "target": 31
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 12,
+      "target": 15
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 13,
+      "target": 15
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 14,
+      "target": 31
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 15,
+      "target": 16
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 15,
+      "target": 17
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 15,
+      "target": 18
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 15,
+      "target": 19
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 16,
+      "target": 20
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 16,
+      "target": 21
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 17,
+      "target": 21
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 18,
+      "target": 21
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 19,
+      "target": 21
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 20,
+      "target": 22
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 21,
+      "target": 22
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 22,
+      "target": 24
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 23,
+      "target": 27
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 24,
+      "target": 25
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 24,
+      "target": 26
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 25,
+      "target": 29
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 25,
+      "target": 30
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 26,
+      "target": 30
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 27,
+      "target": 30
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 28,
+      "target": 29
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 28,
+      "target": 30
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 29,
+      "target": 31
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 30,
+      "target": 31
+    }
+  ]
+}

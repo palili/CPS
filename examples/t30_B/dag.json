@@ -1,0 +1,770 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "Index": 0,
+    "U": -1,
+    "T": -1,
+    "W": -1
+  },
+  "nodes": [
+    {
+      "rank": 0,
+      "execution_time": 60,
+      "label": "1,rank0",
+      "CLB": 3333,
+      "BRAM": 67,
+      "DSP": 104,
+      "EST": 0,
+      "LFT": 60,
+      "Slack": 0,
+      "id": 1
+    },
+    {
+      "rank": 1,
+      "execution_time": 60,
+      "label": "2,rank1",
+      "CLB": 3316,
+      "BRAM": 120,
+      "DSP": 111,
+      "EST": 60,
+      "LFT": 120,
+      "Slack": 0,
+      "id": 2
+    },
+    {
+      "rank": 1,
+      "execution_time": 56,
+      "label": "3,rank1",
+      "CLB": 3010,
+      "BRAM": 101,
+      "DSP": 72,
+      "EST": 60,
+      "LFT": 120,
+      "Slack": 4,
+      "id": 3
+    },
+    {
+      "rank": 1,
+      "execution_time": 53,
+      "label": "4,rank1",
+      "CLB": 3881,
+      "BRAM": 86,
+      "DSP": 115,
+      "EST": 60,
+      "LFT": 126,
+      "Slack": 13,
+      "id": 4
+    },
+    {
+      "rank": 2,
+      "execution_time": 57,
+      "label": "5,rank2",
+      "CLB": 3717,
+      "BRAM": 41,
+      "DSP": 45,
+      "EST": 120,
+      "LFT": 177,
+      "Slack": 0,
+      "id": 5
+    },
+    {
+      "rank": 2,
+      "execution_time": 57,
+      "label": "6,rank2",
+      "CLB": 3766,
+      "BRAM": 119,
+      "DSP": 55,
+      "EST": 120,
+      "LFT": 183,
+      "Slack": 6,
+      "id": 6
+    },
+    {
+      "rank": 2,
+      "execution_time": 50,
+      "label": "7,rank2",
+      "CLB": 3668,
+      "BRAM": 63,
+      "DSP": 61,
+      "EST": 120,
+      "LFT": 177,
+      "Slack": 7,
+      "id": 7
+    },
+    {
+      "rank": 2,
+      "execution_time": 48,
+      "label": "8,rank2",
+      "CLB": 3353,
+      "BRAM": 116,
+      "DSP": 99,
+      "EST": 120,
+      "LFT": 177,
+      "Slack": 9,
+      "id": 8
+    },
+    {
+      "rank": 2,
+      "execution_time": 56,
+      "label": "9,rank2",
+      "CLB": 3430,
+      "BRAM": 88,
+      "DSP": 52,
+      "EST": 120,
+      "LFT": 183,
+      "Slack": 7,
+      "id": 9
+    },
+    {
+      "rank": 2,
+      "execution_time": 50,
+      "label": "10,rank2",
+      "CLB": 3863,
+      "BRAM": 77,
+      "DSP": 52,
+      "EST": 120,
+      "LFT": 177,
+      "Slack": 7,
+      "id": 10
+    },
+    {
+      "rank": 3,
+      "execution_time": 45,
+      "label": "11,rank3",
+      "CLB": 3871,
+      "BRAM": 103,
+      "DSP": 115,
+      "EST": 177,
+      "LFT": 228,
+      "Slack": 6,
+      "id": 11
+    },
+    {
+      "rank": 3,
+      "execution_time": 51,
+      "label": "12,rank3",
+      "CLB": 3447,
+      "BRAM": 67,
+      "DSP": 111,
+      "EST": 177,
+      "LFT": 228,
+      "Slack": 0,
+      "id": 12
+    },
+    {
+      "rank": 3,
+      "execution_time": 45,
+      "label": "13,rank3",
+      "CLB": 3637,
+      "BRAM": 98,
+      "DSP": 118,
+      "EST": 177,
+      "LFT": 228,
+      "Slack": 6,
+      "id": 13
+    },
+    {
+      "rank": 4,
+      "execution_time": 56,
+      "label": "14,rank4",
+      "CLB": 3213,
+      "BRAM": 69,
+      "DSP": 119,
+      "EST": 228,
+      "LFT": 284,
+      "Slack": 0,
+      "id": 14
+    },
+    {
+      "rank": 4,
+      "execution_time": 40,
+      "label": "15,rank4",
+      "CLB": 3899,
+      "BRAM": 65,
+      "DSP": 88,
+      "EST": 228,
+      "LFT": 284,
+      "Slack": 16,
+      "id": 15
+    },
+    {
+      "rank": 5,
+      "execution_time": 50,
+      "label": "16,rank5",
+      "CLB": 3475,
+      "BRAM": 56,
+      "DSP": 85,
+      "EST": 284,
+      "LFT": 334,
+      "Slack": 0,
+      "id": 16
+    },
+    {
+      "rank": 6,
+      "execution_time": 49,
+      "label": "17,rank6",
+      "CLB": 3405,
+      "BRAM": 89,
+      "DSP": 64,
+      "EST": 334,
+      "LFT": 383,
+      "Slack": 0,
+      "id": 17
+    },
+    {
+      "rank": 6,
+      "execution_time": 47,
+      "label": "18,rank6",
+      "CLB": 3891,
+      "BRAM": 66,
+      "DSP": 47,
+      "EST": 334,
+      "LFT": 383,
+      "Slack": 2,
+      "id": 18
+    },
+    {
+      "rank": 7,
+      "execution_time": 41,
+      "label": "19,rank7",
+      "CLB": 3274,
+      "BRAM": 119,
+      "DSP": 62,
+      "EST": 383,
+      "LFT": 443,
+      "Slack": 19,
+      "id": 19
+    },
+    {
+      "rank": 7,
+      "execution_time": 60,
+      "label": "20,rank7",
+      "CLB": 3109,
+      "BRAM": 110,
+      "DSP": 77,
+      "EST": 383,
+      "LFT": 443,
+      "Slack": 0,
+      "id": 20
+    },
+    {
+      "rank": 7,
+      "execution_time": 50,
+      "label": "21,rank7",
+      "CLB": 3101,
+      "BRAM": 88,
+      "DSP": 66,
+      "EST": 383,
+      "LFT": 443,
+      "Slack": 10,
+      "id": 21
+    },
+    {
+      "rank": 8,
+      "execution_time": 54,
+      "label": "22,rank8",
+      "CLB": 3968,
+      "BRAM": 47,
+      "DSP": 74,
+      "EST": 443,
+      "LFT": 502,
+      "Slack": 5,
+      "id": 22
+    },
+    {
+      "rank": 8,
+      "execution_time": 59,
+      "label": "23,rank8",
+      "CLB": 3202,
+      "BRAM": 110,
+      "DSP": 53,
+      "EST": 443,
+      "LFT": 502,
+      "Slack": 0,
+      "id": 23
+    },
+    {
+      "rank": 8,
+      "execution_time": 44,
+      "label": "24,rank8",
+      "CLB": 3257,
+      "BRAM": 106,
+      "DSP": 44,
+      "EST": 433,
+      "LFT": 502,
+      "Slack": 25,
+      "id": 24
+    },
+    {
+      "rank": 8,
+      "execution_time": 57,
+      "label": "25,rank8",
+      "CLB": 3330,
+      "BRAM": 75,
+      "DSP": 62,
+      "EST": 443,
+      "LFT": 502,
+      "Slack": 2,
+      "id": 25
+    },
+    {
+      "rank": 8,
+      "execution_time": 41,
+      "label": "26,rank8",
+      "CLB": 3493,
+      "BRAM": 65,
+      "DSP": 117,
+      "EST": 433,
+      "LFT": 502,
+      "Slack": 28,
+      "id": 26
+    },
+    {
+      "rank": 8,
+      "execution_time": 52,
+      "label": "27,rank8",
+      "CLB": 3426,
+      "BRAM": 109,
+      "DSP": 113,
+      "EST": 443,
+      "LFT": 502,
+      "Slack": 7,
+      "id": 27
+    },
+    {
+      "rank": 8,
+      "execution_time": 53,
+      "label": "28,rank8",
+      "CLB": 3210,
+      "BRAM": 104,
+      "DSP": 40,
+      "EST": 443,
+      "LFT": 502,
+      "Slack": 6,
+      "id": 28
+    },
+    {
+      "rank": 9,
+      "execution_time": 43,
+      "label": "29,rank9",
+      "CLB": 3916,
+      "BRAM": 104,
+      "DSP": 77,
+      "EST": 502,
+      "LFT": 545,
+      "Slack": 0,
+      "id": 29
+    }
+  ],
+  "edges": [
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 1,
+      "target": 2
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 1,
+      "target": 3
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 1,
+      "target": 4
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 2,
+      "target": 5
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 2,
+      "target": 6
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 2,
+      "target": 7
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 2,
+      "target": 8
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 2,
+      "target": 9
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 2,
+      "target": 10
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 3,
+      "target": 5
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 3,
+      "target": 6
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 3,
+      "target": 8
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 3,
+      "target": 9
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 4,
+      "target": 6
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 4,
+      "target": 7
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 4,
+      "target": 9
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 4,
+      "target": 10
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 5,
+      "target": 11
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 5,
+      "target": 12
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 6,
+      "target": 11
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 6,
+      "target": 13
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 7,
+      "target": 11
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 7,
+      "target": 12
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 8,
+      "target": 11
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 8,
+      "target": 12
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 8,
+      "target": 13
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 9,
+      "target": 13
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 10,
+      "target": 11
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 10,
+      "target": 12
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 11,
+      "target": 14
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 11,
+      "target": 15
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 12,
+      "target": 14
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 12,
+      "target": 15
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 13,
+      "target": 14
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 13,
+      "target": 15
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 14,
+      "target": 16
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 15,
+      "target": 16
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 16,
+      "target": 17
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 16,
+      "target": 18
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 17,
+      "target": 19
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 17,
+      "target": 20
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 17,
+      "target": 21
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 18,
+      "target": 20
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 18,
+      "target": 21
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 19,
+      "target": 23
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 19,
+      "target": 24
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 19,
+      "target": 25
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 19,
+      "target": 26
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 19,
+      "target": 27
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 20,
+      "target": 22
+    },
+    {
+      "communication": 21,
+      "label": 21,
+      "source": 20,
+      "target": 23
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 20,
+      "target": 25
+    },
+    {
+      "communication": 28,
+      "label": 28,
+      "source": 20,
+      "target": 27
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 20,
+      "target": 28
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 21,
+      "target": 22
+    },
+    {
+      "communication": 27,
+      "label": 27,
+      "source": 21,
+      "target": 23
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 21,
+      "target": 24
+    },
+    {
+      "communication": 23,
+      "label": 23,
+      "source": 21,
+      "target": 25
+    },
+    {
+      "communication": 30,
+      "label": 30,
+      "source": 21,
+      "target": 26
+    },
+    {
+      "communication": 25,
+      "label": 25,
+      "source": 21,
+      "target": 27
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 21,
+      "target": 28
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 22,
+      "target": 29
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 23,
+      "target": 29
+    },
+    {
+      "communication": 29,
+      "label": 29,
+      "source": 24,
+      "target": 29
+    },
+    {
+      "communication": 22,
+      "label": 22,
+      "source": 25,
+      "target": 29
+    },
+    {
+      "communication": 20,
+      "label": 20,
+      "source": 26,
+      "target": 29
+    },
+    {
+      "communication": 24,
+      "label": 24,
+      "source": 27,
+      "target": 29
+    },
+    {
+      "communication": 26,
+      "label": 26,
+      "source": 28,
+      "target": 29
+    }
+  ]
+}

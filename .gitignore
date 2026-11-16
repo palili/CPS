@@ -1,0 +1,20 @@
+# Build directories & artifacts
+build/
+cmake-build-*/
+out/
+cps_out/
+
+# Compiled binaries & objects
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+
+# Python & OS caches
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
